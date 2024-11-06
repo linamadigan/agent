@@ -9,9 +9,9 @@ categories: ["configuration"]
 doctypes: ["task"]
 ---
 
-## Overview test
+## Overview
 
-NGINX Agent is a companion process that runs alongside NGINX. It provides a gRPC and REST interface for configuration management and metrics collection from the NGINX process and operating system. NGINX Agent enables remote interaction with NGINX using common Linux tools and unlocks the ability to build sophisticated monitoring and control systems that can manage large collections of NGINX instances.
+NGINX Agent is a companion process that works alongside NGINX. It provides a gRPC and REST interface for configuration management and metrics collection from the NGINX process and operating system. NGINX Agent enables remote interaction with NGINX using common Linux tools and unlocks the ability to build sophisticated monitoring and control systems that can manage large collections of NGINX instances.
 
 {{< img src="grafana-dashboard-example.png" caption="Grafana  dashboard showing metrics reported by NGINX Agent" alt="Grafana dashboard showing metrics reported by NGINX Agent" width="99%">}}
 
