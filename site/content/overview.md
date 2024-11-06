@@ -11,16 +11,11 @@ doctypes: ["task"]
 
 ## Overview
 
-NGINX Agent is a companion daemon for your NGINX Open Source or NGINX Plus instance. It enables:
-
-- Remote management of NGINX configurations
-- Collection and reporting of real-time NGINX performance and operating system metrics
-- Notifications of NGINX events
-
+NGINX Agent is a companion process that works alongside NGINX. It provides a gRPC and REST interface for configuration management and metrics collection from the NGINX process and operating system. NGINX Agent enables remote interaction with NGINX using common Linux tools and unlocks the ability to build sophisticated monitoring and control systems that can manage large collections of NGINX instances.
 
 {{< img src="grafana-dashboard-example.png" caption="Grafana  dashboard showing metrics reported by NGINX Agent" alt="Grafana dashboard showing metrics reported by NGINX Agent" width="99%">}}
 
-## How it Works
+## How it works
 
 NGINX Agent runs as a companion process on a system running NGINX. It provides gRPC and REST interfaces for configuration management and metrics collection from the NGINX process and operating system. NGINX Agent enables remote interaction with NGINX using common Linux tools and unlocks the ability to build sophisticated monitoring and control systems that can manage large collections of NGINX instances.
 
